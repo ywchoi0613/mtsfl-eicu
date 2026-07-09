@@ -1,5 +1,0 @@
-# Python 3.10. Install a torch wheel matching your CUDA (experiments: CUDA 12.x, 4x RTX 3090).
-torch==2.8.0
-numpy==1.26.3
-pandas==2.2.2
-scikit-learn==1.5.1
