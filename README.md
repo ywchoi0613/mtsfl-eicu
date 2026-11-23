@@ -32,9 +32,7 @@ Yeonwoo Choi, Dong-Jun Han, Christopher G. Brinton, and Minseok Choi
 **DOI:** [10.1109/JSAC.2026.3754367](https://doi.org/10.1109/JSAC.2026.3754367)  
 **Paper:** [IEEE Xplore, document 11802812](https://ieeexplore.ieee.org/document/11802812)
 
-The citation refers to the **journal article**, not the WCNC conference paper with
-the same title. This repository contains the **eICU experiment code**, rather than
-all experiments in the article.
+This repository contains the **eICU experiment code**, rather than all experiments in the article.
 
 ---
 
