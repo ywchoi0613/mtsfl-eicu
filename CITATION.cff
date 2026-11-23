@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: >-
+  If you use this code in your research, please cite the journal article
+  listed in preferred-citation below.
+type: software
+title: "MT-SFL on eICU-CRD"
+authors:
+  - family-names: Choi
+    given-names: Yeonwoo
+  - family-names: Han
+    given-names: Dong-Jun
+  - family-names: Brinton
+    given-names: Christopher G.
+  - family-names: Choi
+    given-names: Minseok
+license: MIT
+preferred-citation:
+  type: article
+  title: "Multi-Tier Split Federated Learning for Multi-Level Personalization"
+  authors:
+    - family-names: Choi
+      given-names: Yeonwoo
+    - family-names: Han
+      given-names: Dong-Jun
+    - family-names: Brinton
+      given-names: Christopher G.
+    - family-names: Choi
+      given-names: Minseok
+  journal: "IEEE Journal on Selected Areas in Communications"
+  year: 2026
+  notes: "Early Access"
+  doi: "10.1109/JSAC.2026.3754367"
+  url: "https://ieeexplore.ieee.org/document/11802812"

@@ -1,8 +1,13 @@
 # MT-SFL on eICU-CRD
 
 Reproducibility code for the eICU experiments in **"Multi-Tier Split Federated
-Learning for Multi-Level Personalization" (MT-SFL)**, corresponding to the paper
-section *Evaluation on a Real Hierarchical Dataset*.
+Learning for Multi-Level Personalization" (MT-SFL)**, published in **IEEE Journal on
+Selected Areas in Communications (JSAC), Early Access, 2026**. This repository
+corresponds to the paper section *Evaluation on a Real Hierarchical Dataset*.
+
+[IEEE Xplore](https://ieeexplore.ieee.org/document/11802812) |
+[DOI: 10.1109/JSAC.2026.3754367](https://doi.org/10.1109/JSAC.2026.3754367) |
+[BibTeX](CITATION.bib) | [Citation metadata](CITATION.cff)
 
 MT-SFL is a four-tier **split federated learning** framework (client → edge → region
 → cloud) with tier-wise model aggregation, per-tier personalization weights, and a
@@ -16,6 +21,20 @@ validate MT-SFL on a real, naturally hierarchical dataset.
 > Health Data Use Agreement, we may release **code** but may **not** redistribute the
 > data or any data-derived files. You must obtain eICU-CRD yourself (see below) and run
 > the preprocessing locally.
+
+---
+
+## Publication
+
+**Multi-Tier Split Federated Learning for Multi-Level Personalization**  
+Yeonwoo Choi, Dong-Jun Han, Christopher G. Brinton, and Minseok Choi  
+*IEEE Journal on Selected Areas in Communications*, Early Access, 2026.  
+**DOI:** [10.1109/JSAC.2026.3754367](https://doi.org/10.1109/JSAC.2026.3754367)  
+**Paper:** [IEEE Xplore, document 11802812](https://ieeexplore.ieee.org/document/11802812)
+
+The citation refers to the **journal article**, not the WCNC conference paper with
+the same title. This repository contains the **eICU experiment code**, rather than
+all experiments in the article.
 
 ---
 
@@ -122,6 +141,7 @@ All baselines share the optimizer and cosine schedule above, **except HSFL**, wh
 ```
 mtsfl-eicu/
 ├── README.md, DATA.md                        # documentation
+├── CITATION.bib, CITATION.cff                 # journal article citation
 ├── requirements.txt, LICENSE
 ├── data/                                     # you place raw eICU tables here (git-ignored)
 ├── preprocessing/
@@ -142,6 +162,32 @@ mtsfl-eicu/
     ├── run_mtsfl.sh                  # reproduces MT-SFL (GRU, temporal)
     └── run_baselines.sh              # reproduces the six baselines (GRU, temporal)
 ```
+
+## Citation
+
+Please cite the **JSAC journal article** when using this code or reproducing the
+eICU experiments:
+
+> Y. Choi, D.-J. Han, C. G. Brinton, and M. Choi, "Multi-Tier Split Federated
+> Learning for Multi-Level Personalization," *IEEE Journal on Selected Areas in
+> Communications*, early access, 2026, doi: 10.1109/JSAC.2026.3754367.
+
+```bibtex
+@article{choi2026mtsfl,
+  author  = {Choi, Yeonwoo and Han, Dong-Jun and Brinton, Christopher G. and Choi, Minseok},
+  title   = {Multi-Tier Split Federated Learning for Multi-Level Personalization},
+  journal = {IEEE Journal on Selected Areas in Communications},
+  year    = {2026},
+  note    = {Early Access},
+  doi     = {10.1109/JSAC.2026.3754367},
+  url     = {https://ieeexplore.ieee.org/document/11802812}
+}
+```
+
+The same BibTeX entry is available in [`CITATION.bib`](CITATION.bib).
+[`CITATION.cff`](CITATION.cff) provides machine-readable citation metadata with the
+journal article as the preferred citation. Volume, issue, and final page range are
+omitted from this Early Access citation; use the DOI link for the current record.
 
 ## License
 
